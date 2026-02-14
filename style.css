@@ -1,0 +1,17 @@
+:root {
+  --bg-color: white;
+  --text-color: black;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  text-align: center;
+  padding: 50px;
+  transition: 0.3s;
+}
+
+.dark {
+  --bg-color: black;
+  --text-color: white;
+}
